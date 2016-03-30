@@ -50,17 +50,17 @@ echo
 cp /etc/apt/sources.list /etc/apt/sources.list.bk
 rm -rf /etc/apt/sources.list
 
-echo "deb http://ports.ubuntu.com/ trusty main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ trusty main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse" >> /etc/apt/sources.list
 echo >> /etc/apt/sources.list
-echo "deb http://ports.ubuntu.com/ trusty-updates main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ trusty-updates main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse" >> /etc/apt/sources.list
 echo >> /etc/apt/sources.list
-echo "deb http://ports.ubuntu.com/ trusty-security main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ trusty-security main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse" >> /etc/apt/sources.list
 echo >> /etc/apt/sources.list
-echo "deb http://ports.ubuntu.com/ trusty-backports main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ trusty-backports main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse" >> /etc/apt/sources.list
 
 sleep 2
 echo 
@@ -93,17 +93,17 @@ echo
 cp /etc/apt/sources.list /etc/apt/sources.list.bk
 rm -rf /etc/apt/sources.list
 
-echo "deb http://ports.ubuntu.com/ utopic main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ utopic main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ utopic main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ utopic main restricted universe multiverse" >> /etc/apt/sources.list
 echo >> /etc/apt/sources.list
-echo "deb http://ports.ubuntu.com/ utopic-updates main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ utopic-updates main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ utopic-updates main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ utopic-updates main restricted universe multiverse" >> /etc/apt/sources.list
 echo >> /etc/apt/sources.list
-echo "deb http://ports.ubuntu.com/ utopic-security main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ utopic-security main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ utopic-security main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ utopic-security main restricted universe multiverse" >> /etc/apt/sources.list
 echo >> /etc/apt/sources.list
-echo "deb http://ports.ubuntu.com/ trusty-backports main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ trusty-backports main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse" >> /etc/apt/sources.list
 
 sleep 2
 echo 
@@ -134,17 +134,17 @@ echo "wachten AUB"
 cp /etc/apt/sources.list /etc/apt/sources.list.bk
 rm -rf /etc/apt/sources.list
 
-echo "deb http://ports.ubuntu.com/ vivid main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ vivid main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ vivid main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ vivid main restricted universe multiverse" >> /etc/apt/sources.list
 echo >> /etc/apt/sources.list
-echo "deb http://ports.ubuntu.com/ vivid-updates main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ vivid-updates main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ vivid-updates main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ vivid-updates main restricted universe multiverse" >> /etc/apt/sources.list
 echo >> /etc/apt/sources.list
-echo "deb http://ports.ubuntu.com/ vivid-security main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ vivid-security main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ vivid-security main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ vivid-security main restricted universe multiverse" >> /etc/apt/sources.list
 echo >> /etc/apt/sources.list
-echo "deb http://ports.ubuntu.com/ vivid-backports main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ vivid-backports main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ vivid-backports main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ vivid-backports main restricted universe multiverse" >> /etc/apt/sources.list
 
 sleep 2
 echo
@@ -174,17 +174,17 @@ echo "wachten AUB"
 cp /etc/apt/sources.list /etc/apt/sources.list.bk
 rm -rf /etc/apt/sources.list
 
-echo "deb http://ports.ubuntu.com/ wily main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ wily main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ wily main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ wily main restricted universe multiverse" >> /etc/apt/sources.list
 echo >> /etc/apt/sources.list
-echo "deb http://ports.ubuntu.com/ wily-updates main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ wily-updates main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ wily-updates main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ wily-updates main restricted universe multiverse" >> /etc/apt/sources.list
 echo >> /etc/apt/sources.list
-echo "deb http://ports.ubuntu.com/ wily-security main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ wily-security main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ wily-security main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ wily-security main restricted universe multiverse" >> /etc/apt/sources.list
 echo >> /etc/apt/sources.list
-echo "deb http://ports.ubuntu.com/ wily-backports main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ wily-backports main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ wily-backports main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ wily-backports main restricted universe multiverse" >> /etc/apt/sources.list
 
 sleep 2
 echo 
@@ -215,17 +215,17 @@ echo "Wachten AUB"
 cp /etc/apt/sources.list /etc/apt/sources.list.bk
 rm -rf /etc/apt/sources.list
 
-echo "deb http://ports.ubuntu.com/ xenial main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ xenial main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ xenial main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ xenial main restricted universe multiverse" >> /etc/apt/sources.list
 echo >> /etc/apt/sources.list
-echo "deb http://ports.ubuntu.com/ xenial-updates main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ xenial-updates main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ xenial-updates main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ xenial-updates main restricted universe multiverse" >> /etc/apt/sources.list
 echo >> /etc/apt/sources.list
-echo "deb http://ports.ubuntu.com/ xenial-security main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ xenial-security main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ xenial-security main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ xenial-security main restricted universe multiverse" >> /etc/apt/sources.list
 echo >> /etc/apt/sources.list
-echo "deb http://ports.ubuntu.com/ xenial-backports main restricted universe multiverse" >> /etc/apt/sources.list
-echo "# deb-src http://ports.ubuntu.com/ xenial-backports main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://nl.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse" >> /etc/apt/sources.list
+echo "# deb-src http://nl.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse" >> /etc/apt/sources.list
 
 sleep 2
 echo 
