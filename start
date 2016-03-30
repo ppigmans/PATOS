@@ -55,9 +55,9 @@ read -p "Do you wish to launch the updater OS in Dutch or English (Press Y for D
 echo "Wilt u de OS updater starten in het Engels of Nederlands (druk op Y voor Nederlands of op N vor Engels)" 
 if [[ ! $REPLY =~ ^[Nn]$ ]]
 then
-sh ./.hidden/raspberry-pi-install-NL.sh
+sh ./.hidden/ubu-install-NL.sh
 else
-sh ./.hidden/raspberry-pi-install-EN.sh
+sh ./.hidden/ubu-install-EN.sh
 exit 1
 fi
 
