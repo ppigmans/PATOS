@@ -3,16 +3,16 @@ clear
 echo "Dit Script is gemaakt door Patrick Pigmans"
 echo
 sleep 2
-echo "Pat pi OS is maakt door Patrick Pigmans"
+echo "PATOS is maakt door Patrick Pigmans"
 echo
 sleep 2
-echo "Welkom bij het Raspberry pi Installatie script, dit script zal er voor zorgen dat de laaste nieuwe software zal worden geinstalleert op de Raspberry PI met Pat pi OS draaiende."
+echo "Welkom bij het PATOS Installatie script, dit script zal er voor zorgen dat de laaste nieuwe software zal worden geinstalleert op de computer met PATOS draaiende."
 sleep 1
 echo
 echo "Dit zal helaas behoorlijk wat tijd in beslag nemen, maar zodra hij geinstalleert is werkt alles zoals het behoord en is alles geupdate" 
 echo
 sleep 1
-echo "Zorg er voor dat de raspberry pi een netwerk aansluiting heb en zonder problemen op het stroom kan zitten"
+echo "Zorg er voor dat de computer een netwerk aansluiting heb en zonder problemen op het stroom kan zitten"
 echo
 sleep 1
 echo "enige stroom verlies kan zorgen voor het corruptie van het systeem"
@@ -122,22 +122,10 @@ c_rehash /opt/Citrix/ICAClient/keystore/cacerts
 
 cp /etc/sudoers /etc/sudoers.bk
 rm /etc/sudoers
-
 echo
-sleep 3
-echo "Beginnen met het downloaden van software essentieel voor de raspberry pi"
-sleep 3
 echo
-echo "Wachten AUB"
 sleep 3
 
-git clone -q https://github.com/Hexxeh/rpi-update
-mkdir /root/rpi-update
-cp -r rpi-update /root/rpi-update
-rm -rf rpi-update
-/root/rpi-update/rpi-update/rpi-update
-echo
-sleep 2
 echo "config.txt aan het herschrijven"
 echo
 cp /boot/config.txt /boot/config.txt.bk
@@ -283,19 +271,7 @@ rm /etc/sudoers
 
 echo
 sleep 3
-echo "Beginnen met het downloaden van software essentieel voor de raspberry pi"
-sleep 3
-echo
-echo "Wachten AUB"
-sleep 3
 
-git clone -q https://github.com/Hexxeh/rpi-update
-mkdir /root/rpi-update
-cp -r rpi-update /root/rpi-update
-rm -rf rpi-update
-/root/rpi-update/rpi-update/rpi-update
-echo
-sleep 2
 echo "config.txt aan het herschrijven"
 echo
 cp /boot/config.txt /boot/config.txt.bk
@@ -434,19 +410,6 @@ c_rehash /opt/Citrix/ICAClient/keystore/cacerts
 
 sleep 3
 echo
-echo "begin downloaden van benodigde software voor raspberry pi"
-sleep 3
-echo
-echo "wachten AUB"
-sleep 3
-
-git clone -q https://github.com/Hexxeh/rpi-update
-mkdir /root/rpi-update
-cp -r rpi-update /root/rpi-update
-rm -rf rpi-update
-/root/rpi-update/rpi-update/rpi-update
-echo
-sleep 2
 echo "config bestand aan het herschrijven"
 echo
 cp /boot/config.txt /boot/config.txt.bk
@@ -585,20 +548,8 @@ c_rehash /opt/Citrix/ICAClient/keystore/cacerts
 echo
 echo "Software is geinstalleerd"
 echo
-sleep 3
-echo "begin downloaden van benodigde software voor raspberry pi"
-sleep 3
-echo
-echo "wachten AUB"
-sleep 3
 
-git clone -q https://github.com/Hexxeh/rpi-update
-mkdir /root/rpi-update
-cp -r rpi-update /root/rpi-update
-rm -rf rpi-update
-/root/rpi-update/rpi-update/rpi-update
-echo
-sleep 2
+sleep 3
 echo "config bestand aan het herschrijven"
 echo
 cp /boot/config.txt /boot/config.txt.bk
