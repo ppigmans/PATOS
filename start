@@ -21,7 +21,11 @@ rm /bin/sh
 cp /bin/bash /bin/sh
 clear
 echo "This script is made by Patrick Pigmans"
+echo
 echo "Dit Script is gemaakt door Patrick Pigmans"
+echo
+echo "PATOS Backgrounds, logos and logout screen are designed and made by Francesca Mcdonald"
+echo "PATOS achtergronden, logos en logout scherm zijn ontworpen en gemaakt door Francesca Mcdonald"
 sleep 1
 echo
 echo "if you have not done so already please exit this script and type fdisk /dev/mmcblk0 and press the following keys one after another:"

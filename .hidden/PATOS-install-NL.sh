@@ -120,9 +120,6 @@ ln /usr/lib/arm-linux-gnueabihf/libcurl.so /usr/lib/arm-linux-gnueabihf/libcurl.
 ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts
 c_rehash /opt/Citrix/ICAClient/keystore/cacerts
 
-cp /etc/sudoers /etc/sudoers.bk
-rm /etc/sudoers
-echo
 echo
 sleep 3
 
@@ -208,6 +205,12 @@ apt-get -f install -y
  
 echo
 cp ./.hidden/ntp.conf /etc/ntp.conf
+cp ./.hidden/36.png /usr/share/lxde/images/lxde-icon.png
+cp ./.hidden/352.png /usr/share/lxde/images/logout-banner.png
+cp ./.hidden/2048.png /usr/share/lxde/wallpapers/lxde_green.jpg
+cp ./.hidden/2048.png /usr/share/lxde/wallpapers/lxde_blue.jpg
+cp ./.hidden/2048.png /usr/share/lxde/wallpapers/lxde_red.jpg
+
 sleep 2
 echo "Herstarten"
 echo "Na de herstart typ het volgende"
