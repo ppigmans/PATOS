@@ -1,6 +1,3 @@
-ga naar de folder waar u deze git clone gebruikt en typ
+currently only in dutch language, working on translation
 
-sh ./start
-
-
-Werkt enkel bij raspberry pi 2b
+PATOS is a nickname for Patrick's OS, this is my first own Operating system made with linux, any tips and advice send to ppigmans@hotmail.com
