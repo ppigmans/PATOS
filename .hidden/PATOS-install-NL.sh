@@ -207,9 +207,9 @@ echo
 cp ./.hidden/ntp.conf /etc/ntp.conf
 cp ./.hidden/36.png /usr/share/lxde/images/lxde-icon.png
 cp ./.hidden/352.png /usr/share/lxde/images/logout-banner.png
-cp ./.hidden/2048.png /usr/share/lxde/wallpapers/lxde_green.jpg
-cp ./.hidden/2048.png /usr/share/lxde/wallpapers/lxde_blue.jpg
-cp ./.hidden/2048.png /usr/share/lxde/wallpapers/lxde_red.jpg
+cp ./.hidden/2048green.png /usr/share/lxde/wallpapers/lxde_green.jpg
+cp ./.hidden/2048blue.png /usr/share/lxde/wallpapers/lxde_blue.jpg
+cp ./.hidden/2048red.png /usr/share/lxde/wallpapers/lxde_red.jpg
 
 sleep 2
 echo "Herstarten"
