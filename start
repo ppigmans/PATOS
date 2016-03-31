@@ -51,13 +51,13 @@ fi
 
 echo 
 
-read -p "Do you wish to launch the updater OS in Dutch or English (Press Y for Dutch or N for English )" -n 1 -r
-echo "Wilt u de OS updater starten in het Engels of Nederlands (druk op Y voor Nederlands of op N vor Engels)" 
+read -p "Do you wish to launch the OS installer in Dutch or English (Press Y for Dutch or N for English )" -n 1 -r
+echo "Wilt u de OS installer starten in het Engels of Nederlands (druk op Y voor Nederlands of op N vor Engels)" 
 if [[ ! $REPLY =~ ^[Nn]$ ]]
 then
-sh ./.hidden/ubu-install-NL.sh
+sh ./.hidden/PATOS-install-NL.sh
 else
-sh ./.hidden/ubu-install-EN.sh
+sh ./.hidden/PATOS-install-EN.sh
 exit 1
 fi
 
