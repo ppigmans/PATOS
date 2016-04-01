@@ -123,65 +123,9 @@ c_rehash /opt/Citrix/ICAClient/keystore/cacerts
 echo
 sleep 3
 
-echo "config.txt aan het herschrijven"
-echo
-cp /boot/config.txt /boot/config.txt.bk
-rm /boot/config.txt
-
-echo "# For more options and information see" >> /boot/config.txt
-echo "# http://www.raspberrypi.org/documentation/configuration/config-txt.md" >> /boot/config.txt
-echo "# Some settings may impact device functionality. See link above for details" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment if you get no picture on HDMI for a default "safe" mode" >> /boot/config.txt
-echo "#hdmi_safe=1" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment this if your display has a black border of unused pixels visible" >> /boot/config.txt
-echo "# and your display can output without overscan" >> /boot/config.txt
-echo "#disable_overscan=1" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment the following to adjust overscan. Use positive numbers if console" >> /boot/config.txt
-echo "# goes off screen, and negative if there is too much border" >> /boot/config.txt
-echo "#overscan_left=16" >> /boot/config.txt
-echo "#overscan_right=16" >> /boot/config.txt
-echo "#overscan_top=16" >> /boot/config.txt
-echo "#overscan_bottom=16" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment to force a console size. By default it will be display's size minus" >> /boot/config.txt
-echo "# overscan." >> /boot/config.txt
-echo "#framebuffer_width=1280" >> /boot/config.txt
-echo "#framebuffer_height=720" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment if hdmi display is not detected and composite is being output" >> /boot/config.txt
-echo "#hdmi_force_hotplug=1" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment to force a specific HDMI mode (this will force VGA)" >> /boot/config.txt
-echo "#hdmi_group=1" >> /boot/config.txt
-echo "#hdmi_mode=1" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment to force a HDMI mode rather than DVI. This can make audio work in" >> /boot/config.txt
-echo "# DMT (computer monitor) modes" >> /boot/config.txt
-echo "#hdmi_drive=2" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment to increase signal to HDMI, if you have interference, blanking, or" >> /boot/config.txt
-echo "# no display" >> /boot/config.txt
-echo "#config_hdmi_boost=4" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment for composite PAL" >> /boot/config.txt
-echo "#sdtv_mode=2" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "#uncomment to overclock the arm. 700 MHz is the default." >> /boot/config.txt
-echo "arm_freq=1000" >> /boot/config.txt
-echo "core_freq=500" >> /boot/config.txt
-echo "sdram_freq=500" >> /boot/config.txt
-echo "over_voltage=2" >> /boot/config.txt
-echo "dtoverlay=vc4-kms-v3d" >> /boot/config.txt
-echo "device_tree=" >> /boot/config.txt
 cp /etc/modules /etc/modules.bk
 cp ./.hidden/modules /etc/modules
 echo
-sleep 3
-echo "Herschrijving voltooid"
-echo 
 sleep 3
 echo "Opruimen van systeem en downloads"
 echo
@@ -268,73 +212,8 @@ ln /usr/lib/arm-linux-gnueabihf/libcurl.so /usr/lib/arm-linux-gnueabihf/libcurl.
 ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts
 c_rehash /opt/Citrix/ICAClient/keystore/cacerts
 
-cp /etc/sudoers /etc/sudoers.bk
-rm /etc/sudoers
-
-
-echo
-sleep 3
-
-echo "config.txt aan het herschrijven"
-echo
-cp /boot/config.txt /boot/config.txt.bk
-rm /boot/config.txt
-
-echo "# For more options and information see" >> /boot/config.txt
-echo "# http://www.raspberrypi.org/documentation/configuration/config-txt.md" >> /boot/config.txt
-echo "# Some settings may impact device functionality. See link above for details" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment if you get no picture on HDMI for a default "safe" mode" >> /boot/config.txt
-echo "#hdmi_safe=1" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment this if your display has a black border of unused pixels visible" >> /boot/config.txt
-echo "# and your display can output without overscan" >> /boot/config.txt
-echo "#disable_overscan=1" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment the following to adjust overscan. Use positive numbers if console" >> /boot/config.txt
-echo "# goes off screen, and negative if there is too much border" >> /boot/config.txt
-echo "#overscan_left=16" >> /boot/config.txt
-echo "#overscan_right=16" >> /boot/config.txt
-echo "#overscan_top=16" >> /boot/config.txt
-echo "#overscan_bottom=16" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment to force a console size. By default it will be display's size minus" >> /boot/config.txt
-echo "# overscan." >> /boot/config.txt
-echo "#framebuffer_width=1280" >> /boot/config.txt
-echo "#framebuffer_height=720" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment if hdmi display is not detected and composite is being output" >> /boot/config.txt
-echo "#hdmi_force_hotplug=1" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment to force a specific HDMI mode (this will force VGA)" >> /boot/config.txt
-echo "#hdmi_group=1" >> /boot/config.txt
-echo "#hdmi_mode=1" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment to force a HDMI mode rather than DVI. This can make audio work in" >> /boot/config.txt
-echo "# DMT (computer monitor) modes" >> /boot/config.txt
-echo "#hdmi_drive=2" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment to increase signal to HDMI, if you have interference, blanking, or" >> /boot/config.txt
-echo "# no display" >> /boot/config.txt
-echo "#config_hdmi_boost=4" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment for composite PAL" >> /boot/config.txt
-echo "#sdtv_mode=2" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "#uncomment to overclock the arm. 700 MHz is the default." >> /boot/config.txt
-echo "arm_freq=1000" >> /boot/config.txt
-echo "core_freq=500" >> /boot/config.txt
-echo "sdram_freq=500" >> /boot/config.txt
-echo "over_voltage=2" >> /boot/config.txt
-echo "dtoverlay=vc4-kms-v3d" >> /boot/config.txt
-echo "device_tree=" >> /boot/config.txt
 cp /etc/modules /etc/modules.bk
 cp ./.hidden/modules /etc/modules
-echo
-sleep 3
-echo "Herschrijving voltooid"
-cp /etc/passwd /etc/passwd.bk
-cp ./.hidden/passwd /etc/passwd
 echo
 sleep 3
 echo "Opruimen van systeem en downloads"
@@ -410,69 +289,9 @@ apt-get -f install -y
 ln /usr/lib/arm-linux-gnueabihf/libcurl.so /usr/lib/arm-linux-gnueabihf/libcurl.so.4
 ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts
 c_rehash /opt/Citrix/ICAClient/keystore/cacerts
-
+cp 
 sleep 3
 echo
-echo "config bestand aan het herschrijven"
-echo
-cp /boot/config.txt /boot/config.txt.bk
-rm /boot/config.txt
-
-echo "# For more options and information see" >> /boot/config.txt
-echo "# http://www.raspberrypi.org/documentation/configuration/config-txt.md" >> /boot/config.txt
-echo "# Some settings may impact device functionality. See link above for details" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment if you get no picture on HDMI for a default "safe" mode" >> /boot/config.txt
-echo "#hdmi_safe=1" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment this if your display has a black border of unused pixels visible" >> /boot/config.txt
-echo "# and your display can output without overscan" >> /boot/config.txt
-echo "#disable_overscan=1" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment the following to adjust overscan. Use positive numbers if console" >> /boot/config.txt
-echo "# goes off screen, and negative if there is too much border" >> /boot/config.txt
-echo "#overscan_left=16" >> /boot/config.txt
-echo "#overscan_right=16" >> /boot/config.txt
-echo "#overscan_top=16" >> /boot/config.txt
-echo "#overscan_bottom=16" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment to force a console size. By default it will be display's size minus" >> /boot/config.txt
-echo "# overscan." >> /boot/config.txt
-echo "#framebuffer_width=1280" >> /boot/config.txt
-echo "#framebuffer_height=720" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment if hdmi display is not detected and composite is being output" >> /boot/config.txt
-echo "#hdmi_force_hotplug=1" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment to force a specific HDMI mode (this will force VGA)" >> /boot/config.txt
-echo "#hdmi_group=1" >> /boot/config.txt
-echo "#hdmi_mode=1" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment to force a HDMI mode rather than DVI. This can make audio work in" >> /boot/config.txt
-echo "# DMT (computer monitor) modes" >> /boot/config.txt
-echo "#hdmi_drive=2" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment to increase signal to HDMI, if you have interference, blanking, or" >> /boot/config.txt
-echo "# no display" >> /boot/config.txt
-echo "#config_hdmi_boost=4" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "# uncomment for composite PAL" >> /boot/config.txt
-echo "#sdtv_mode=2" >> /boot/config.txt
-echo >> /boot/config.txt
-echo "#uncomment to overclock the arm. 700 MHz is the default." >> /boot/config.txt
-echo "arm_freq=1000" >> /boot/config.txt
-echo "core_freq=500" >> /boot/config.txt
-echo "sdram_freq=500" >> /boot/config.txt
-echo "over_voltage=2" >> /boot/config.txt
-echo "dtoverlay=vc4-kms-v3d" >> /boot/config.txt
-echo "device_tree=" >> /boot/config.txt
-cp /etc/modules /etc/modules.bk
-cp ./.hidden/modules /etc/modules
-echo
-sleep 3
-echo "Herschrijving voltooid"
-echo 
-sleep 3
 echo "Opruimen van systeem en downloads"
 echo
 apt-get -f install -y
@@ -488,7 +307,8 @@ cp ./.hidden/ntp.conf /etc/ntp.conf
 echo "Herstarten"
 echo "Na de herstart typ het volgende"
 
-
+cp /etc/modules /etc/modules.bk
+cp ./.hidden/modules /etc/modules
 echo 
 sleep 5
 history -c
