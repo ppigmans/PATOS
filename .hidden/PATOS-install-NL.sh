@@ -16,6 +16,8 @@ echo "Zorg er voor dat de computer een netwerk aansluiting heb en zonder problem
 echo
 sleep 1
 echo "enige stroom verlies kan zorgen voor het corruptie van het systeem"
+read -p "Is dit een ON THE GO installtie? (y/n)"
+
 echo
 sleep 2
 PS3="Kies uw DE (1-8)(Plasma en Cinnamon zijn nog niet getest):" 
@@ -146,14 +148,14 @@ apt-get -qq remove pulseaudio -y
 apt-get -f install -y
 apt-get -qq remove chromium*
 apt-get -f install -y
- 
+
 echo
 cp ./.hidden/ntp.conf /etc/ntp.conf
 cp ./.hidden/36.png /usr/share/lxde/images/lxde-icon.png
 cp ./.hidden/352.png /usr/share/lxde/images/logout-banner.png
 cp ./.hidden/2048green.png /usr/share/lxde/wallpapers/lxde_green.jpg
-cp ./.hidden/2048blue.png /usr/share/lxde/wallpapers/lxde_blue.jpg
 cp ./.hidden/2048red.png /usr/share/lxde/wallpapers/lxde_red.jpg
+cp ./.hidden/2048blue.png /usr/share/lxde/wallpapers/lxde_red.jpg
 
 sleep 2
 echo "Herstarten"
