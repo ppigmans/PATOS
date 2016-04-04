@@ -16,8 +16,6 @@ echo "Zorg er voor dat de computer een netwerk aansluiting heb en zonder problem
 echo
 sleep 1
 echo "enige stroom verlies kan zorgen voor het corruptie van het systeem"
-read -p "Is dit een ON THE GO installtie? (y/n)"
-
 echo
 sleep 2
 PS3="Kies uw DE (1-8)(Plasma en Cinnamon zijn nog niet getest):" 
